@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chess</title>
+    <style>
+        td{
+            width: 150px;
+            height: 70px;
+            padding: 0px;
+            border: 0;
+    
+        }
+        .row1 :nth-child(even), .row2 :nth-child(odd), .row3 :nth-child(even), .row4 :nth-child(odd), 
+        .row5 :nth-child(even), .row6 :nth-child(odd), .row7 :nth-child(even), .row8 :nth-child(odd){
+         background-color: hsl(37, 39%, 41%);  
+        }
+        .row1 :nth-child(odd), .row2 :nth-child(even), .row3 :nth-child(odd), .row4 :nth-child(even), 
+        .row5 :nth-child(odd), .row6 :nth-child(even), .row7 :nth-child(odd), .row8 :nth-child(even){
+         background-color: #f1e3cc;  
+        }
+        .b{
+            font-size: 40px;
+        }
+        #c{
+            background-color:  hsl(37, 39%, 41%);
+        }
+        #s{
+            background-color:  hsl(37, 39%, 41%) ;
+        }
+        #t{
+            background-color: transparent;
+        }
+        
+    </style>
+</head>
+<body>
+    <table border="3" class="table">
+        <tr class="row1">
+            <td class="b"><center>&#9814</center></td>
+            <td class="b"><center id="c">&#9816</center></td>
+            <td class="b"><center>&#9815</center></td>
+            <td class="b"><center id="c">&#9813</center></td>
+            <td class="b"><center>&#9812</center></td>
+            <td class="b"><center id="c">&#9815</center></td>
+            <td class="b"><center>&#9816</center></td>
+            <td class="b"><center id="c">&#9814</center></td>
+        </tr>
+        <tr class="row2">
+            <td class="b"><center>&#9817</center></td>
+            <td class="b"><center id="t">&#9817</center></td>
+            <td class="b"><center>&#9817</center></td>
+            <td class="b"><center id="t">&#9817</center></td>
+            <td class="b"><center>&#9817</center></td>
+            <td class="b"><center id="t">&#9817</center></td>
+            <td class="b"><center>&#9817</center></td>
+            <td class="b"><center id="t">&#9817</center></td>
+        </tr>
+        <tr class="row3">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr class="row4">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr class="row5"><td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td></tr>
+        <tr class="row6"><td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr class="row7">
+            <td class="b"><center>&#9817</center></td>
+            <td class="b"><center id="s">&#9817</center></td>
+            <td class="b"><center>&#9817</center></td>
+            <td class="b"><center id="s">&#9817</center></td>
+            <td class="b"><center>&#9817</center></td>
+            <td class="b"><center id="s">&#9817</center></td>
+            <td class="b"><center>&#9817</center></td>
+            <td class="b"><center id="s">&#9817</center></td>
+        </tr>
+        <tr class="row8">
+            <td class="b"><center>&#9814</center></td>
+            <td class="b"><center id="t">&#9816</center></td>
+            <td class="b"><center>&#9815</center></td>
+            <td class="b"><center id="t">&#9812</center></td>
+            <td class="b"><center>&#9813</center></td>
+            <td class="b"><center id="t">&#9815</center></td>
+            <td class="b"><center>&#9816</center></td>
+            <td class="b"><center id="t">&#9814</center></td>
+        </tr>
+    </table>
+</body>
+</html>
